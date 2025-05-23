@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">   <!---basically  computer  cannot understand the text directly  it all text symbol many more  converrt into unicodde(binary number ) 
+   we use UTF-8 because  it majorly have all languange and symbol   -->
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-container">
+    <h1>Weather App</h1>
+    <input type="text" id="cityInput" placeholder="Enter city name" />
+    <button onclick="getWeather()">Get Weather</button>
+    <div id="weatherResult"></div>
+  </div>  <!--You use <div> to wrap a group of elements so they can be treated as one unit. For example,
+     you can group a heading, paragraph, and image inside one <div>.
+
+-->
+  <script src="script.js"></script>
+</body>
+</html>
